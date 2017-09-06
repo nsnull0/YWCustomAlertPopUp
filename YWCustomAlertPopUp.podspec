@@ -10,7 +10,7 @@ s.author             = { "yoseph_wijaya" => "info@yoseph.ws" }
 s.platform     = :ios
 s.ios.deployment_target = "9.0"
 s.source       = { :git => "https://github.com/nsnull0/YWCustomAlertPopUp.git", :tag => "#{s.version}" }
-s.source_files  = "YWCustomAlertPopUp/*.{h,m}"
+s.source_files  = "YWCustomAlertPopUp/Classes/*.{h,m}"
 s.resources = "YWCustomAlertPopUp/Resources/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.framework  = "UIKit"
 

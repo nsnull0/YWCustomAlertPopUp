@@ -11,29 +11,21 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <viewController id="BxP-fq-rGf" customClass="YWCustomAlertController">
-            <layoutGuides>
-                <viewControllerLayoutGuide type="top" id="YBM-hJ-6li"/>
-                <viewControllerLayoutGuide type="bottom" id="vTO-2j-SZO"/>
-            </layoutGuides>
-            <view key="view" contentMode="scaleToFill" id="hFj-He-l9p">
-                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                <subviews>
-                    <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADV-D4-eFe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </subviews>
-                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                <constraints>
-                    <constraint firstItem="vTO-2j-SZO" firstAttribute="top" secondItem="ADV-D4-eFe" secondAttribute="bottom" id="BNR-OD-zg3"/>
-                    <constraint firstItem="ADV-D4-eFe" firstAttribute="top" secondItem="hFj-He-l9p" secondAttribute="top" id="XA4-Sa-8Fy"/>
-                    <constraint firstAttribute="trailing" secondItem="ADV-D4-eFe" secondAttribute="trailing" id="XEp-aI-Pt9"/>
-                    <constraint firstItem="ADV-D4-eFe" firstAttribute="leading" secondItem="hFj-He-l9p" secondAttribute="leading" id="pSU-Pc-LcZ"/>
-                </constraints>
-            </view>
-            <point key="canvasLocation" x="-7.5" y="-135.5"/>
-        </viewController>
+        <view contentMode="scaleToFill" id="zg9-Cr-XnO" customClass="YWCustomAlertPopUp">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F6k-pI-X5y">
+                    <rect key="frame" x="-51" y="214" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="containerView" destination="F6k-pI-X5y" id="dvg-yx-GzS"/>
+            </connections>
+            <point key="canvasLocation" x="-20" y="-133"/>
+        </view>
     </objects>
 </document>

@@ -1,0 +1,16 @@
+PODS:
+  - YWCustomAlertPopUp (1.0)
+
+DEPENDENCIES:
+  - YWCustomAlertPopUp (from `/Volumes/Mac/Users/yosephwijaya/private_library_yoseph/YWCustomAlertPopUp/`)
+
+EXTERNAL SOURCES:
+  YWCustomAlertPopUp:
+    :path: /Volumes/Mac/Users/yosephwijaya/private_library_yoseph/YWCustomAlertPopUp/
+
+SPEC CHECKSUMS:
+  YWCustomAlertPopUp: 18ae65be71b21cc842b351416dd5f2d406be2a9e
+
+PODFILE CHECKSUM: 37f19cca80ba8baf5a2442d051c32cb19bfb394e
+
+COCOAPODS: 1.1.1

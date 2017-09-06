@@ -1,5 +1,5 @@
 //
-//  YWCustomAlertController.h
+//  YWCustomAlertPopUp.h
 //  YWCustomAlertPopUp
 //
 //  Created by Yoseph Wijaya on 9/6/17.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YWCustomAlertController : UIViewController
+@interface YWCustomAlertPopUp : UIView
+@property (weak, nonatomic) IBOutlet UIView *containerView;
 
 @end
