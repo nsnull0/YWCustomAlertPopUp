@@ -10,6 +10,9 @@
 		C1E6F8571F5F9E190023C4BB /* YWCustomAlertPopUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E6F84D1F5F9E190023C4BB /* YWCustomAlertPopUp.framework */; };
 		C1E6F85C1F5F9E190023C4BB /* YWCustomAlertPopUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6F85B1F5F9E190023C4BB /* YWCustomAlertPopUpTests.m */; };
 		C1E6F85E1F5F9E190023C4BB /* YWCustomAlertPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E6F8501F5F9E190023C4BB /* YWCustomAlertPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E6F86B1F5FA1F40023C4BB /* AlertContainerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1E6F86A1F5FA1F40023C4BB /* AlertContainerView.xib */; };
+		C1E6F86E1F5FA2DD0023C4BB /* YWCustomAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E6F86C1F5FA2DD0023C4BB /* YWCustomAlertController.h */; };
+		C1E6F86F1F5FA2DD0023C4BB /* YWCustomAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E6F86D1F5FA2DD0023C4BB /* YWCustomAlertController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +33,11 @@
 		C1E6F85B1F5F9E190023C4BB /* YWCustomAlertPopUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWCustomAlertPopUpTests.m; sourceTree = "<group>"; };
 		C1E6F85D1F5F9E190023C4BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1E6F8671F5F9E9C0023C4BB /* YWCustomAlertPopUp.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YWCustomAlertPopUp.podspec; sourceTree = "<group>"; };
+		C1E6F8681F5F9FCC0023C4BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C1E6F8691F5FA00C0023C4BB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C1E6F86A1F5FA1F40023C4BB /* AlertContainerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlertContainerView.xib; path = Resources/AlertContainerView.xib; sourceTree = "<group>"; };
+		C1E6F86C1F5FA2DD0023C4BB /* YWCustomAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWCustomAlertController.h; sourceTree = "<group>"; };
+		C1E6F86D1F5FA2DD0023C4BB /* YWCustomAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWCustomAlertController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				C1E6F8671F5F9E9C0023C4BB /* YWCustomAlertPopUp.podspec */,
+				C1E6F8681F5F9FCC0023C4BB /* README.md */,
+				C1E6F8691F5FA00C0023C4BB /* LICENSE */,
 				C1E6F84F1F5F9E190023C4BB /* YWCustomAlertPopUp */,
 				C1E6F85A1F5F9E190023C4BB /* YWCustomAlertPopUpTests */,
 				C1E6F84E1F5F9E190023C4BB /* Products */,
@@ -74,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				C1E6F8501F5F9E190023C4BB /* YWCustomAlertPopUp.h */,
+				C1E6F86C1F5FA2DD0023C4BB /* YWCustomAlertController.h */,
+				C1E6F86D1F5FA2DD0023C4BB /* YWCustomAlertController.m */,
 				C1E6F8511F5F9E190023C4BB /* Info.plist */,
+				C1E6F86A1F5FA1F40023C4BB /* AlertContainerView.xib */,
 			);
 			path = YWCustomAlertPopUp;
 			sourceTree = "<group>";
@@ -95,6 +108,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E6F86E1F5FA2DD0023C4BB /* YWCustomAlertController.h in Headers */,
 				C1E6F85E1F5F9E190023C4BB /* YWCustomAlertPopUp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E6F86B1F5FA1F40023C4BB /* AlertContainerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E6F86F1F5FA2DD0023C4BB /* YWCustomAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
